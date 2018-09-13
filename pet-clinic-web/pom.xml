@@ -3,7 +3,7 @@
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>tim.freebern</groupId>
-        <version>0.0.3-SNAPSHOT</version>
+        <version>Y</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,7 +13,7 @@
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>tim.freebern</groupId>
-            <version>0.0.3-SNAPSHOT</version>
+            <version>Y</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
