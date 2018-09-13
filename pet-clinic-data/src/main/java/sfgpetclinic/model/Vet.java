@@ -1,4 +1,4 @@
 package tim.freebern.sfgpetclinic.model;
 
-public class Person {
+public class Vet extends Person {
 }
