@@ -1,6 +1,8 @@
 package tim.freebern.sfgpetclinic.model;
 
-public class PetType {
+import com.sun.xml.internal.rngom.parse.host.Base;
+
+public class PetType extends BaseEntity {
 
     private String name;
 
