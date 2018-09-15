@@ -27,6 +27,7 @@ public abstract class AbstractMapService<T, ID> {
         map.remove(id);
     }
 
+//    If the ID matches the Object it will then delete
     void delete(T object) {
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
