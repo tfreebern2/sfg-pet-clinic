@@ -1,11 +1,11 @@
 package tim.freebern.sfgpetclinic.services.map;
 
 import tim.freebern.sfgpetclinic.model.Vet;
-import tim.freebern.sfgpetclinic.services.CrudService;
+import tim.freebern.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
