@@ -1,0 +1,14 @@
+tim/freebern/sfgpetclinic/model/PetType.class
+tim/freebern/sfgpetclinic/services/map/AbstractMapService.class
+tim/freebern/sfgpetclinic/services/map/PetServiceMap.class
+tim/freebern/sfgpetclinic/model/Owner.class
+tim/freebern/sfgpetclinic/services/map/OwnerServiceMap.class
+tim/freebern/sfgpetclinic/services/map/VetServiceMap.class
+tim/freebern/sfgpetclinic/model/BaseEntity.class
+tim/freebern/sfgpetclinic/services/VetService.class
+tim/freebern/sfgpetclinic/model/Vet.class
+tim/freebern/sfgpetclinic/services/PetService.class
+tim/freebern/sfgpetclinic/services/CrudService.class
+tim/freebern/sfgpetclinic/services/OwnerService.class
+tim/freebern/sfgpetclinic/model/Person.class
+tim/freebern/sfgpetclinic/model/Pet.class
