@@ -1,5 +1,6 @@
 package tim.freebern.sfgpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import tim.freebern.sfgpetclinic.model.PetType;
 import tim.freebern.sfgpetclinic.services.PetTypeService;
@@ -7,6 +8,7 @@ import tim.freebern.sfgpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override

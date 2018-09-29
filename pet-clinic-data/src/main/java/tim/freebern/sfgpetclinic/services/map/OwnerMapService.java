@@ -1,5 +1,6 @@
 package tim.freebern.sfgpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import tim.freebern.sfgpetclinic.model.Owner;
 import tim.freebern.sfgpetclinic.model.Pet;
@@ -10,12 +11,13 @@ import tim.freebern.sfgpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long > implements OwnerService {
+@Profile({"default", "map"})
+public class OwnerMapService extends AbstractMapService<Owner, Long > implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
 
-    public OwnerServiceMap(PetTypeService petTypeService, PetService petService) {
+    public OwnerMapService(PetTypeService petTypeService, PetService petService) {
         this.petTypeService = petTypeService;
         this.petService = petService;
     }
